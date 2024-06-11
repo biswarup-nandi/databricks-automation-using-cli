@@ -1,0 +1,35 @@
+{
+  "user-management": [
+    {
+      "groups": {
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:Group"
+        ],
+        "id": "test-group-1",
+        "displayName": "test-group-1"
+      },
+      "users": [
+        {
+          "schemas": [
+            "urn:ietf:params:scim:schemas:core:2.0:User"
+          ],
+          "id": "test-user-1",
+          "userName": "test-user-1@example.com",
+          "emails": [
+            {
+              "value": "test-user-1@example.com",
+              "display": "test-user-1@example.com",
+              "primary": true
+            }
+          ],
+          "name": {
+            "givenName": "test",
+            "familyName": "user"
+          },
+          "displayName": "test-user-1",
+          "active": true
+        }
+      ]
+    }
+  ]
+}
